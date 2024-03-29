@@ -7,6 +7,9 @@
     "format": "prettier --write *.js",
     "lint:fix": "eslint . --fix"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

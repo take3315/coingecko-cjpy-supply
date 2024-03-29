@@ -3,7 +3,7 @@ const axios = require('axios')
 const Keyv = require('keyv')
 
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3001
 
 // Create a Keyv instance for caching
 const cache = new Keyv()
